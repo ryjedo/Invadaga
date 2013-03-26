@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="New document 1">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.4"
+     inkscape:cx="338.9351"
+     inkscape:cy="777.91827"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1290"
+     inkscape:window-height="754"
+     inkscape:window-x="0"
+     inkscape:window-y="35"
+     inkscape:window-maximized="0">
+    <inkscape:grid
+       type="xygrid"
+       id="grid3023" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2985"
+       sodipodi:cx="350.71429"
+       sodipodi:cy="284.50504"
+       sodipodi:rx="35"
+       sodipodi:ry="112.14286"
+       d="m 385.71429,284.50504 a 35,112.14286 0 1 1 -70,0 35,112.14286 0 1 1 70,0 z"
+       transform="translate(-0.71429443,-2.1428528)"
+       inkscape:export-filename="/home/ryan/shiptest1.png"
+       inkscape:export-xdpi="100.00592"
+       inkscape:export-ydpi="100.00592" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2987"
+       sodipodi:cx="441.42856"
+       sodipodi:cy="342.36218"
+       sodipodi:rx="22.857143"
+       sodipodi:ry="70"
+       d="m 464.2857,342.36218 a 22.857143,70 0 1 1 -45.71429,0 22.857143,70 0 1 1 45.71429,0 z"
+       transform="translate(-35.357143,-2.8571429)"
+       inkscape:export-filename="/home/ryan/shiptest1.png"
+       inkscape:export-xdpi="100.00592"
+       inkscape:export-ydpi="100.00592" />
+    <path
+       transform="translate(-146.07141,-2.8571401)"
+       sodipodi:type="arc"
+       style="fill:#ff0000;fill-rule:evenodd;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       id="path2987-5"
+       sodipodi:cx="441.42856"
+       sodipodi:cy="342.36218"
+       sodipodi:rx="22.857143"
+       sodipodi:ry="70"
+       d="m 464.2857,342.36218 a 22.857143,70 0 1 1 -45.71429,0 22.857143,70 0 1 1 45.71429,0 z"
+       inkscape:export-filename="/home/ryan/shiptest1.png"
+       inkscape:export-xdpi="100.00592"
+       inkscape:export-ydpi="100.00592" />
+    <path
+       style="fill:#ff0000;stroke:#000000;stroke-width:1.37412654999999995px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+       d="m 350,262.36218 106.22222,55 13.27778,55 -239,0 13.27778,-55 z"
+       id="path3021"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc"
+       inkscape:export-filename="/home/ryan/shiptest1.png"
+       inkscape:export-xdpi="100.00592"
+       inkscape:export-ydpi="100.00592" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#00ffff;fill-opacity:1"
+       id="path3025"
+       sodipodi:cx="350"
+       sodipodi:cy="222.36218"
+       sodipodi:rx="10"
+       sodipodi:ry="20"
+       d="m 360,222.36218 a 10,20 0 1 1 -20,0 10,20 0 1 1 20,0 z"
+       inkscape:export-filename="/home/ryan/shiptest1.png"
+       inkscape:export-xdpi="100.00592"
+       inkscape:export-ydpi="100.00592" />
+    <rect
+       style="fill:#000000;fill-opacity:1"
+       id="rect3027"
+       width="5"
+       height="73"
+       x="280"
+       y="299.36218"
+       ry="1.1368684e-13"
+       inkscape:export-filename="/home/ryan/shiptest1.png"
+       inkscape:export-xdpi="100.00592"
+       inkscape:export-ydpi="100.00592" />
+    <rect
+       style="fill:#000000;fill-opacity:1"
+       id="rect3027-4"
+       width="5"
+       height="73"
+       x="415"
+       y="299.36218"
+       ry="1.1368684e-13"
+       inkscape:export-filename="/home/ryan/shiptest1.png"
+       inkscape:export-xdpi="100.00592"
+       inkscape:export-ydpi="100.00592" />
+    <path
+       sodipodi:type="star"
+       style="fill:#000000;fill-opacity:1"
+       id="path3047"
+       sodipodi:sides="5"
+       sodipodi:cx="340"
+       sodipodi:cy="317.36218"
+       sodipodi:r1="13.688043"
+       sodipodi:r2="31.622778"
+       sodipodi:arg1="0.31122512"
+       sodipodi:arg2="0.95472626"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 353.03046,321.55381 5.2422,21.61748 -18.2325,-12.12112 -18.93952,11.6658 5.89372,-21.08577 -16.94746,-14.40762 21.87501,-0.9106 8.46541,-20.5702 7.62578,20.52298 22.17938,1.69454 z"
+       inkscape:transform-center-x="1.6327141"
+       inkscape:transform-center-y="-1.6327141"
+       transform="translate(8.9680225,7.2123174)"
+       inkscape:export-filename="/home/ryan/shiptest1.png"
+       inkscape:export-xdpi="100.00592"
+       inkscape:export-ydpi="100.00592" />
+    <path
+       sodipodi:type="arc"
+       style="fill:#e6e6e6;fill-opacity:1"
+       id="path3049"
+       sodipodi:cx="348.92856"
+       sodipodi:cy="233.07646"
+       sodipodi:rx="3.9285715"
+       sodipodi:ry="9.2857141"
+       d="m 352.85713,233.07646 a 3.9285715,9.2857141 0 1 1 -7.85714,0 3.9285715,9.2857141 0 1 1 7.85714,0 z"
+       transform="translate(3.0304576,-7.8286822)"
+       inkscape:export-filename="/home/ryan/shiptest1.png"
+       inkscape:export-xdpi="100.00592"
+       inkscape:export-ydpi="100.00592" />
+  </g>
+</svg>
