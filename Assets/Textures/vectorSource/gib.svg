@@ -14,7 +14,7 @@
    height="1052.3622047"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.3.1 r9886"
+   inkscape:version="0.48.4 r9939"
    sodipodi:docname="gib.svg"
    inkscape:export-filename="/home/ryan/github/Invadaga/Assets/Textures/gib.png"
    inkscape:export-xdpi="100"
@@ -178,11 +178,12 @@
        inkscape:collect="always"
        xlink:href="#linearGradient3478"
        id="linearGradient3484"
-       x1="340.5"
-       y1="325.36218"
-       x2="358.375"
-       y2="312.61218"
-       gradientUnits="userSpaceOnUse" />
+       x1="331.88281"
+       y1="328.74109"
+       x2="352.13281"
+       y2="320.11609"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(-1,0,0,-1,704.25781,638.72827)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -192,16 +193,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="8"
-     inkscape:cx="336.26817"
+     inkscape:cx="321.20567"
      inkscape:cy="726.92879"
      inkscape:document-units="px"
-     inkscape:current-layer="layer6"
+     inkscape:current-layer="layer5"
      showgrid="false"
      inkscape:snap-global="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1025"
-     inkscape:window-x="-3"
-     inkscape:window-y="32"
+     inkscape:window-height="1033"
+     inkscape:window-x="-4"
+     inkscape:window-y="24"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
@@ -215,6 +216,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -225,10 +227,13 @@
      style="display:inline">
     <path
        style="fill:#4d4d4d;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 328.7936,294.86598 43.6891,3.15673 3.15672,38.13326 -33.20876,7.70241 0.25254,-17.55139 -14.07262,-8.93226 z"
+       d="m 375.46421,343.86229 -38.9391,-6.90673 -1.28172,-27.50826 26.58376,-14.57741 -0.25254,17.55139 14.07262,8.93226 z"
        id="path2987-2-8-6"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccc" />
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="C:\Users\ryan\Documents\GitHub\Invadaga\Assets\Textures\gib.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
   <g
      inkscape:groupmode="layer"
@@ -237,9 +242,12 @@
      style="display:inline">
     <path
        style="fill:url(#linearGradient3484);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
-       d="m 328.80141,294.86989 43.6891,3.15673 3.15672,38.13326 -33.20876,7.70241 0.25254,-17.55139 -14.07262,-8.93226 z"
+       d="m 375.4564,343.85838 -34.5641,-6.78173 -4.03172,-28.50826 24.95876,-13.70241 -0.25254,17.55139 14.07262,8.93226 z"
        id="path2987-2-8"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccc" />
+       sodipodi:nodetypes="ccccccc"
+       inkscape:export-filename="C:\Users\ryan\Documents\GitHub\Invadaga\Assets\Textures\gib.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
   </g>
 </svg>
