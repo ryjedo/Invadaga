@@ -14,5 +14,4 @@ public class playerGib: MonoBehaviour
 		GameObject.FindWithTag("sceneManager").GetComponent<playerMgr>().spawnPlayer();
 		GameObject.FindWithTag("sceneManager").GetComponent<playerMgr>().lives -= 1;
 	}
-
 }

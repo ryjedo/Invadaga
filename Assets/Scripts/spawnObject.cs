@@ -20,7 +20,7 @@ public class spawnObject : MonoBehaviour
 
 	void spawnPowerUp()
 	{
-		pickPowerUp = Random.Range(0,3);
+		pickPowerUp = Random.Range(0,5);
 		Instantiate(powerUps[pickPowerUp], new Vector3 (spawnPowerUpLocation,0,95), Quaternion.identity);
 		spawnPowerUpLocation = Random.Range (-160, 160);
 	}

@@ -3,7 +3,7 @@ using System.Collections;
 
 
 
-public class gibAddShield: MonoBehaviour
+public class gibMultiShot: MonoBehaviour
 {
 
 	public GameObject[] gibs;
@@ -11,6 +11,7 @@ public class gibAddShield: MonoBehaviour
 	public float spawnRadius = 10;
 	public int pointValue = 15;
 	public int buffTimer = 8;
+
 	
 	void OnTriggerEnter()
 	{
@@ -20,7 +21,7 @@ public class gibAddShield: MonoBehaviour
 			gibInstance.rigidbody.AddExplosionForce(explosionForce,transform.position,spawnRadius);
 		}
 		GameObject.FindWithTag("sceneManager").GetComponent<playerMgr>().score += pointValue;
-		GameObject.FindWithTag("Shield").GetComponent<respawnShield>().shieldFuel += buffTimer;
+		GameObject.FindWithTag("sceneManager").GetComponent<playerMgr>().multiShotFuel += buffTimer;
 		Destroy (gameObject);
 	}
 
