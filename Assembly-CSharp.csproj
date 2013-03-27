@@ -49,7 +49,11 @@
      <Compile Include="Assets\Scripts\destroyOffScreen.cs" />
      <Compile Include="Assets\Scripts\destroyOnCollide.cs" />
      <Compile Include="Assets\Scripts\enemyShoot.cs" />
+     <Compile Include="Assets\Scripts\gibAddShield.cs" />
+     <Compile Include="Assets\Scripts\gibExtraLife.cs" />
+     <Compile Include="Assets\Scripts\gibExtraPoints.cs" />
      <Compile Include="Assets\Scripts\gibOnCollide.cs" />
+     <Compile Include="Assets\Scripts\gibRotate.cs" />
      <Compile Include="Assets\Scripts\mainLib.cs" />
      <Compile Include="Assets\Scripts\moveEnemy.cs" />
      <Compile Include="Assets\Scripts\moveLeftRight.cs" />

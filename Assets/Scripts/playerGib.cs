@@ -9,7 +9,7 @@ public class playerGib: MonoBehaviour
 	
 	void OnTriggerEnter()
 	{
-		Instantiate(gib,transform.position,transform.rotation);
+		//Instantiate(gib,transform.position,transform.rotation);
 		Destroy (gameObject);
 		GameObject.FindWithTag("sceneManager").GetComponent<playerMgr>().spawnPlayer();
 		GameObject.FindWithTag("sceneManager").GetComponent<playerMgr>().lives -= 1;

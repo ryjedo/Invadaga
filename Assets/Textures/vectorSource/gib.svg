@@ -14,7 +14,7 @@
    height="1052.3622047"
    id="svg2"
    version="1.1"
-   inkscape:version="0.48.4 r9939"
+   inkscape:version="0.48.3.1 r9886"
    sodipodi:docname="gib.svg"
    inkscape:export-filename="/home/ryan/github/Invadaga/Assets/Textures/gib.png"
    inkscape:export-xdpi="100"
@@ -193,16 +193,16 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="8"
-     inkscape:cx="321.20567"
+     inkscape:cx="303.89317"
      inkscape:cy="726.92879"
      inkscape:document-units="px"
-     inkscape:current-layer="layer5"
+     inkscape:current-layer="layer6"
      showgrid="false"
      inkscape:snap-global="false"
      inkscape:window-width="1920"
-     inkscape:window-height="1033"
-     inkscape:window-x="-4"
-     inkscape:window-y="24"
+     inkscape:window-height="1025"
+     inkscape:window-x="-3"
+     inkscape:window-y="32"
      inkscape:window-maximized="1">
     <inkscape:grid
        type="xygrid"
@@ -231,7 +231,7 @@
        id="path2987-2-8-6"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="ccccccc"
-       inkscape:export-filename="C:\Users\ryan\Documents\GitHub\Invadaga\Assets\Textures\gib.png"
+       inkscape:export-filename="/home/ryan/github/Invadaga/Assets/Textures/gib.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
   </g>
@@ -239,7 +239,7 @@
      inkscape:groupmode="layer"
      id="layer5"
      inkscape:label="Layer3"
-     style="display:inline">
+     style="display:none">
     <path
        style="fill:url(#linearGradient3484);fill-opacity:1;stroke:#000000;stroke-width:0;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
        d="m 375.4564,343.85838 -34.5641,-6.78173 -4.03172,-28.50826 24.95876,-13.70241 -0.25254,17.55139 14.07262,8.93226 z"
