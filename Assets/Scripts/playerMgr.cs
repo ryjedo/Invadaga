@@ -10,7 +10,6 @@ public class playerMgr : MonoBehaviour
 	public int score;
 	public int multiShot = 0;
 	public float multiShotFuel = 0;
-
 	
 	
 	

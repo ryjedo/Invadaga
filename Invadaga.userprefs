@@ -1,16 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\playerMultiShoot.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\enemyShootB.cs">
     <Files>
-      <File FileName="Assets\Scripts\playerGib.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\gibExtraLife.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\spawnObject.cs" Line="23" Column="33" />
-      <File FileName="Assets\Scripts\gibAddShield.cs" Line="23" Column="89" />
-      <File FileName="Assets\Scripts\playerShoot.cs" Line="6" Column="30" />
-      <File FileName="Assets\Scripts\playerMultiShoot.cs" Line="7" Column="30" />
-      <File FileName="Assets\Scripts\respawnShield.cs" Line="66" Column="3" />
-      <File FileName="Assets\Scripts\playerMgr.cs" Line="21" Column="22" />
-      <File FileName="Assets\Scripts\gibMultiShot.cs" Line="24" Column="94" />
+      <File FileName="Assets\Scripts\playerMgr.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\playerShoot.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\spawnObject.cs" Line="18" Column="7" />
+      <File FileName="Assets\Scripts\playerMultiShoot.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\gibRotate.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\enemyShoot.cs" Line="8" Column="37" />
+      <File FileName="Assets\Scripts\enemyShootB.cs" Line="15" Column="37" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

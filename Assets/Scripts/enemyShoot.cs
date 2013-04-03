@@ -5,11 +5,11 @@ public class enemyShoot : MonoBehaviour
 {
 
 	public GameObject bullet;
-	public float enemyShootTimer = 2;
+	public float enemyShootTimer = 1.5F;
 
 	void Start() 
 	{
-		InvokeRepeating("enemyFire", 2F, enemyShootTimer);
+		InvokeRepeating("enemyFire", 1F, enemyShootTimer);
 	}
 	
 	void enemyFire()
