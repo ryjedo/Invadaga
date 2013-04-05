@@ -65,6 +65,7 @@
      <Compile Include="Assets\Scripts\playerMultiShoot.cs" />
      <Compile Include="Assets\Scripts\playerShoot.cs" />
      <Compile Include="Assets\Scripts\respawnShield.cs" />
+     <Compile Include="Assets\Scripts\sceneManager.cs" />
      <Compile Include="Assets\Scripts\spawnObject.cs" />
      <Compile Include="Assets\Scripts\spriteAnimation.cs" />
   </ItemGroup>

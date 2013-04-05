@@ -6,7 +6,7 @@ public class playerMgr : MonoBehaviour
 
 	public GameObject player;
 	public float spawnLocZ = -80;
-	public int lives = 2;
+	public int lives = 3;
 	public int score;
 	public int multiShot = 0;
 	public float multiShotFuel = 0;
@@ -15,7 +15,7 @@ public class playerMgr : MonoBehaviour
 	
 	public void spawnPlayer()
 	{
-		if(lives > 0)
+		if(lives > 1)
 			Instantiate(player, new Vector3 (0,0,spawnLocZ), Quaternion.identity);
 			multiShotFuel = 0;
 		//Application.Quit();
@@ -46,7 +46,21 @@ public class playerMgr : MonoBehaviour
 			}
 		}
 	}
-
+	
+	//gui stuff
+	void OnGUI()
+	{
+		//score
+		GUI.Label(new Rect(50,(Screen.height/2),60,20),"Score =");
+		GUI.Label(new Rect(100,(Screen.height/2),60,20), score.ToString());
+		//Lives
+		GUI.Label(new Rect(50,((Screen.height/2)-20),60,20),"Lives =");
+		GUI.Label(new Rect(100,((Screen.height/2)-20),60,20), lives.ToString());
+		//MultiShot
+		GUI.Label(new Rect(50,((Screen.height/2)-40),60,20),"MultiShot =");
+		GUI.Label(new Rect(140,((Screen.height/2)-40),60,20), multiShotFuel.ToString());
+	}
+		
 	public void enableMultiShot()
 	{
 		multiShot = 1;

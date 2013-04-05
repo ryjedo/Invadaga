@@ -6,7 +6,7 @@ public class enemyShootB : MonoBehaviour
 
 	public GameObject bullet;
 	public float enemyShootTimerStart = 0.2F;
-	public float enemyShootTimerRepeat = 0.3F;
+	public float enemyShootTimerRepeat = 0.13F;
 	public int enemyBurstShotQty = 0;
 
 	void Start() 
