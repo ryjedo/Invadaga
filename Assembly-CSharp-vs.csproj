@@ -63,6 +63,7 @@
      <Compile Include="Assets\Scripts\playerGib.cs" />
      <Compile Include="Assets\Scripts\playerMgr.cs" />
      <Compile Include="Assets\Scripts\playerMultiShoot.cs" />
+     <Compile Include="Assets\Scripts\playerShield.cs" />
      <Compile Include="Assets\Scripts\playerShoot.cs" />
      <Compile Include="Assets\Scripts\respawnShield.cs" />
      <Compile Include="Assets\Scripts\sceneManager.cs" />

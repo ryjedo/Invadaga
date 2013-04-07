@@ -3,36 +3,21 @@ using System.Collections;
 
 public class playerMultiShoot : MonoBehaviour
 {
-
-	public float fireRate = 0.18F;
-	public float nextFire = 0.0F;
-	public GameObject bullet;
-	public float weaponHeat = 0.0F;
-
+	private float nextfire;
+	
 	void Update ()
 	{
 
-		if(Input.GetButton("Fire1") && Time.time > nextFire&&weaponHeat < 15)
+		if(Input.GetButton("Fire1") && Time.time > nextFire && sceneManager.playerMultiShotOn && !sceneManager.playerWeaponOverheat)
 		{
-			if ( GameObject.FindWithTag("sceneManager").GetComponent<playerMgr>().multiShot > 0)
-			{
- 				nextFire = Time.time + fireRate;
-				Instantiate(bullet,transform.position,transform.rotation);
-				weaponHeat += 1F;
-
-			}
+			playerBulletFire();
 		}
 
 	}
-
-	void Start ()
+	private void playerBulletFire()
 	{
-		InvokeRepeating("heatSink", 0, 5);
+			Instantiate(sceneManager.playerBullet,Transform.position,Transform.Rotation);
+			sceneManager.playerWeaponHeat += 1;
+			nextFire = Time.time + sceneManager.playerWeaponFireRate;
 	}
-
-	void heatSink ()
-	{
-		weaponHeat -= 5F;
-	}
-	
 }

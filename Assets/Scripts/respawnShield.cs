@@ -1,3 +1,14 @@
+
+
+
+
+/// <summary>
+/// DEPRICATED !!!DO NOT USE!!!
+/// </summary>
+
+
+
+
 using UnityEngine;
 using System.Collections;
 
@@ -45,13 +56,13 @@ public class respawnShield : MonoBehaviour {
 	
 	
 	
-	void shrinkShield()
+	public static void shrinkShield()
 	{
 		transform.localScale = new Vector3(0.1F,0.1F,0.1F);
 		shieldOn = 0;
 	}
 
-	public void expandShield()
+	public static void expandShield()
 	{
 		transform.localScale = new Vector3(2F,1.5F,2F);
 		shieldOn = 1;

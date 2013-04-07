@@ -3,31 +3,23 @@ using System.Collections;
 
 public class playerShoot : MonoBehaviour
 {
-	public float fireRate = 0.18F;
-	public float nextFire = 0.0F;
-	public GameObject bullet;
-	public float weaponHeat = 0.0F;
+	private float nextFire;
 	
 	void Update ()
 	{
 
-		if(Input.GetButton("Fire1")&&Time.time > nextFire&&weaponHeat < 15)
+		if(Input.GetButton("Fire1") && Time.time > nextFire && !sceneManager.playerWeaponOverheat)
 		{
-			nextFire = Time.time + fireRate;
-			Instantiate(bullet,transform.position,transform.rotation);
-			weaponHeat += 1F;
+			playerBulletFire();
 		}
 
 	}
-	void Start ()
-	{
-		InvokeRepeating("heatSink", 0, 5);
-	}
 
-	void heatSink ()
+		
+	private void playerBulletFire()
 	{
-		weaponHeat -= 5F;
+		Instantiate(sceneManager.playerBullet,Transform.position,Transform.Rotation);
+		sceneManager.playerWeaponHeat += 1;
+		nextFire = Time.time + sceneManager.playerWeaponFireRate;
 	}
-	
-
 }
