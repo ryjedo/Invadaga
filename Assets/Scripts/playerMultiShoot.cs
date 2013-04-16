@@ -3,7 +3,7 @@ using System.Collections;
 
 public class playerMultiShoot : MonoBehaviour
 {
-	private float nextfire;
+	private float nextFire;
 	
 	void Update ()
 	{
@@ -16,7 +16,7 @@ public class playerMultiShoot : MonoBehaviour
 	}
 	private void playerBulletFire()
 	{
-			Instantiate(sceneManager.playerBullet,Transform.position,Transform.Rotation);
+			Instantiate(sceneManager.playerBullet,transform.position,transform.rotation);
 			sceneManager.playerWeaponHeat += 1;
 			nextFire = Time.time + sceneManager.playerWeaponFireRate;
 	}
