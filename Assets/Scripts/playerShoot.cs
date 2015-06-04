@@ -3,12 +3,13 @@ using System.Collections;
 
 public class playerShoot : MonoBehaviour
 {
+	public float playerWeaponFireRate;
 	private float nextFire;
-	
+	public GameObject playerBullet;
 	void Update ()
 	{
 
-		if(Input.GetButton("Fire1") && Time.time > nextFire && !sceneManager.playerWeaponOverheat)
+		if(Input.GetButton("Fire1") && Time.time > nextFire)// && !sceneManager.playerWeaponOverheat)
 		{
 			playerBulletFire();
 		}
@@ -18,8 +19,8 @@ public class playerShoot : MonoBehaviour
 		
 	private void playerBulletFire()
 	{
-		Instantiate(sceneManager.playerBullet,Transform.position,Transform.Rotation);
-		sceneManager.playerWeaponHeat += 1;
-		nextFire = Time.time + sceneManager.playerWeaponFireRate;
+		Instantiate(playerBullet, transform.position , transform.rotation);
+		//sceneManager.playerWeaponHeat += 1;
+		nextFire = Time.time + playerWeaponFireRate;
 	}
 }

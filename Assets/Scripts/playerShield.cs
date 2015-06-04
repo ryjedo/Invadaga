@@ -15,7 +15,7 @@ public class playerShield : MonoBehaviour {
 
 	
 	//CUSTOM METHODS BEGIN
-	public static void resizeShield()
+	public void resizeShield()
 	{
 		if(sceneManager.playerShieldOn == true)
 		{

@@ -56,13 +56,13 @@ public class respawnShield : MonoBehaviour {
 	
 	
 	
-	public static void shrinkShield()
+	public void shrinkShield()
 	{
 		transform.localScale = new Vector3(0.1F,0.1F,0.1F);
 		shieldOn = 0;
 	}
 
-	public static void expandShield()
+	public void expandShield()
 	{
 		transform.localScale = new Vector3(2F,1.5F,2F);
 		shieldOn = 1;

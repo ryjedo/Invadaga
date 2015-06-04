@@ -13,7 +13,7 @@ public class sceneManager : MonoBehaviour
 	//VARS START
 	//Player Vars
 	public static GameObject player;
-	public static GameObject playerBullet;
+	public static Object playerBullet = Instantiate(Resources.Load<Object>("bullet"));
 	public static int playerLives = 3;
 	public static int playerScore;
 	public static bool playerShieldOn = true;

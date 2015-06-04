@@ -1,12 +1,13 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\sceneManager.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="../Labs/proceduralStoryEngine/Assets/SciFi level 2/Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js">
     <Files>
-      <File FileName="Assets\Scripts\playerMultiShoot.cs" Line="19" Column="72" />
-      <File FileName="Assets\Scripts\playerShield.cs" Line="24" Column="4" />
-      <File FileName="Assets\Scripts\respawnShield.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\sceneManager.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\playerShoot.cs" Line="14" Column="4" />
+      <File FileName="../Labs/proceduralStoryEngine/Temp/Compiled-Normal-Diffuse-.shader" Line="1" Column="1" />
+      <File FileName="../Labs/proceduralStoryEngine/Temp/ParsedCombinations-Normal-Diffuse.shader" Line="1" Column="1" />
+      <File FileName="../Labs/proceduralStoryEngine/Assets/SciFi level 2/Standard Assets/Character Controllers/Sources/Scripts/FPSInputController.js" Line="1" Column="1" />
+      <File FileName="../Labs/proceduralStoryEngine/Assets/SciFi level 2/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonCamera.js" Line="1" Column="1" />
+      <File FileName="../Labs/proceduralStoryEngine/Assets/SciFi level 2/Standard Assets/Character Controllers/Sources/Scripts/ThirdPersonController.js" Line="1" Column="1" />
+      <File FileName="../Labs/proceduralStoryEngine/Assets/SciFi level 2/Standard Assets/Character Controllers/Sources/Scripts/CharacterMotor.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
